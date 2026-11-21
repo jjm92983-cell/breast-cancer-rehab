@@ -1,0 +1,130 @@
+{
+  "_설명": "시연용 가상 환자 데모 데이터입니다. 실제 환자 정보는 전혀 사용하지 않았습니다.",
+  "patientProfile": {
+    "label": "가상 환자 (시연용)",
+    "summary": "45세, 유방절제술 후 2주"
+  },
+  "defaultAllowedStage": 2,
+  "records": [
+    {
+      "dayOffset": -10,
+      "pain": 7,
+      "temperature": 36.8,
+      "woundSigns": { "redness": false, "heat": false, "swelling": true, "oozing": false },
+      "armSwelling": "약간",
+      "shoulderMobility": "많이 불편",
+      "emergencySymptoms": { "dyspnea": false, "chestPain": false },
+      "mood": "불안",
+      "memo": "수술 부위가 뻐근하고 팔을 들기 조심스러움",
+      "exerciseCompletionRate": 25
+    },
+    {
+      "dayOffset": -9,
+      "pain": 6,
+      "temperature": 36.7,
+      "woundSigns": { "redness": false, "heat": false, "swelling": true, "oozing": false },
+      "armSwelling": "약간",
+      "shoulderMobility": "많이 불편",
+      "emergencySymptoms": { "dyspnea": false, "chestPain": false },
+      "mood": "보통",
+      "memo": "천천히 호흡 운동만 진행함",
+      "exerciseCompletionRate": 25
+    },
+    {
+      "dayOffset": -8,
+      "pain": 6,
+      "temperature": 36.7,
+      "woundSigns": { "redness": false, "heat": false, "swelling": false, "oozing": false },
+      "armSwelling": "약간",
+      "shoulderMobility": "불편",
+      "emergencySymptoms": { "dyspnea": false, "chestPain": false },
+      "mood": "보통",
+      "memo": "부기가 조금 가라앉은 느낌",
+      "exerciseCompletionRate": 50
+    },
+    {
+      "dayOffset": -7,
+      "pain": 5,
+      "temperature": 36.6,
+      "woundSigns": { "redness": false, "heat": false, "swelling": false, "oozing": false },
+      "armSwelling": "없음",
+      "shoulderMobility": "불편",
+      "emergencySymptoms": { "dyspnea": false, "chestPain": false },
+      "mood": "보통",
+      "memo": "팔 부종이 없어짐",
+      "exerciseCompletionRate": 50
+    },
+    {
+      "dayOffset": -6,
+      "pain": 5,
+      "temperature": 36.7,
+      "woundSigns": { "redness": false, "heat": false, "swelling": false, "oozing": false },
+      "armSwelling": "없음",
+      "shoulderMobility": "불편",
+      "emergencySymptoms": { "dyspnea": false, "chestPain": false },
+      "mood": "좋음",
+      "memo": "가벼운 진자 운동까지 따라 함",
+      "exerciseCompletionRate": 50
+    },
+    {
+      "dayOffset": -5,
+      "pain": 4,
+      "temperature": 36.6,
+      "woundSigns": { "redness": false, "heat": false, "swelling": false, "oozing": false },
+      "armSwelling": "없음",
+      "shoulderMobility": "불편",
+      "emergencySymptoms": { "dyspnea": false, "chestPain": false },
+      "mood": "좋음",
+      "memo": "어깨 당김이 전보다 줄어듦",
+      "exerciseCompletionRate": 75
+    },
+    {
+      "dayOffset": -4,
+      "pain": 4,
+      "temperature": 36.7,
+      "woundSigns": { "redness": false, "heat": false, "swelling": false, "oozing": false },
+      "armSwelling": "없음",
+      "shoulderMobility": "불편",
+      "emergencySymptoms": { "dyspnea": false, "chestPain": false },
+      "mood": "좋음",
+      "memo": "재활운동 3가지를 무리 없이 마침",
+      "exerciseCompletionRate": 75
+    },
+    {
+      "dayOffset": -3,
+      "pain": 3,
+      "temperature": 36.6,
+      "woundSigns": { "redness": false, "heat": false, "swelling": false, "oozing": false },
+      "armSwelling": "없음",
+      "shoulderMobility": "편함",
+      "emergencySymptoms": { "dyspnea": false, "chestPain": false },
+      "mood": "좋음",
+      "memo": "일상적인 팔 움직임이 한결 편함",
+      "exerciseCompletionRate": 75
+    },
+    {
+      "dayOffset": -2,
+      "pain": 3,
+      "temperature": 36.7,
+      "woundSigns": { "redness": false, "heat": false, "swelling": false, "oozing": false },
+      "armSwelling": "없음",
+      "shoulderMobility": "편함",
+      "emergencySymptoms": { "dyspnea": false, "chestPain": false },
+      "mood": "아주 좋음",
+      "memo": "모든 허용 단계 운동을 완료함",
+      "exerciseCompletionRate": 100
+    },
+    {
+      "dayOffset": -1,
+      "pain": 2,
+      "temperature": 36.6,
+      "woundSigns": { "redness": false, "heat": false, "swelling": false, "oozing": false },
+      "armSwelling": "없음",
+      "shoulderMobility": "편함",
+      "emergencySymptoms": { "dyspnea": false, "chestPain": false },
+      "mood": "아주 좋음",
+      "memo": "컨디션 양호, 통증 크게 줄어듦",
+      "exerciseCompletionRate": 100
+    }
+  ]
+}

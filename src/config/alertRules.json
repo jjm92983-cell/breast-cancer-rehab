@@ -1,0 +1,63 @@
+{
+  "_설명": "위험신호 기준값 설정 파일입니다. 나중에 기준 수치나 안내 문구를 바꾸고 싶을 때 이 파일의 숫자나 문구만 수정하면 앱 전체에 바로 반영됩니다.",
+  "disclaimer": "이 앱은 진단을 하지 않습니다. 의료진의 지시가 우선입니다.",
+  "levelPriority": ["응급", "병원 연락", "주의 관찰"],
+  "armSwellingOrder": ["없음", "약간", "심함"],
+  "labels": {
+    "symptoms": {
+      "dyspnea": "호흡곤란",
+      "chestPain": "흉통"
+    },
+    "woundSigns": {
+      "redness": "붉어짐",
+      "heat": "열감",
+      "swelling": "부기",
+      "oozing": "진물"
+    }
+  },
+  "rules": [
+    {
+      "id": "emergency_symptoms",
+      "level": "응급",
+      "description": "호흡곤란 또는 흉통 중 하나 이상 체크",
+      "checkedSymptomsAny": ["dyspnea", "chestPain"],
+      "message": "즉시 119 또는 응급실"
+    },
+    {
+      "id": "high_fever",
+      "level": "병원 연락",
+      "description": "체온 기준 이상",
+      "minTemperatureCelsius": 38.0,
+      "message": "오늘 안에 병원에 연락하세요"
+    },
+    {
+      "id": "wound_infection_signs",
+      "level": "병원 연락",
+      "description": "수술 부위 붉어짐, 열감, 진물 중 하나 이상 체크",
+      "checkedWoundSignsAny": ["redness", "heat", "oozing"],
+      "message": "오늘 안에 병원에 연락하세요"
+    },
+    {
+      "id": "arm_swelling_worsened",
+      "level": "병원 연락",
+      "description": "팔 부종 '심함' 또는 전일 대비 악화",
+      "armSwellingEquals": "심함",
+      "checkWorsenedFromYesterday": true,
+      "message": "오늘 안에 병원에 연락하세요"
+    },
+    {
+      "id": "severe_pain",
+      "level": "병원 연락",
+      "description": "통증 점수 기준 이상",
+      "minPainScore": 7,
+      "message": "오늘 안에 병원에 연락하세요"
+    },
+    {
+      "id": "pain_increasing_trend",
+      "level": "주의 관찰",
+      "description": "통증이 연속 일수 이상 증가",
+      "consecutiveIncreaseDays": 2,
+      "message": "계속되면 병원에 알리세요"
+    }
+  ]
+}
